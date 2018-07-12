@@ -26,7 +26,7 @@ The `predict` method takes 3 arguments:
 
 - `$segment_size`: An integer representing the number of people to which the email campaign will be sent.
 - `$day_of_week`: An integer between `0` (Sunday) and `6` (Saturday) representing the day of the week on which the email campaign will be sent.
-- `$hour_of_day`: An integer between `1` and `24` representing the hour of the day on which the email campaign will be sent.
+- `$hour_of_day`: An integer between `0` and `23` representing the hour of the day on which the email campaign will be sent.
 
 ```php
 $segment_size = 600;
