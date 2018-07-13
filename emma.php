@@ -1,9 +1,6 @@
 <?php
 namespace Emma;
 
-ini_set('auto_detect_line_endings', true);
-date_default_timezone_set('America/Indiana/Indianapolis');
-
 class Emma
 {
   private $emails = [];
