@@ -4,7 +4,7 @@ Emma is a bot that predicts the performance of [Salesforce email marketing campa
 
 ## Training Emma
 
-Emma uses the [k-nearest neighbor machine learning algorithm](https://machinelearningmastery.com/k-nearest-neighbors-for-machine-learning/) to make predictions about the performance of email campaigns.
+Emma uses the [k-nearest neighbors machine learning algorithm](https://machinelearningmastery.com/k-nearest-neighbors-for-machine-learning/) to make predictions about the performance of email campaigns.
 
 To train Emma, create a new instance of `Emma` and pass to the constructor the path to your Salesforce tracking data spreadsheet. The path to your tracking data spreadsheet is relative to the directory in which Emma lives.
 
