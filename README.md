@@ -58,3 +58,4 @@ The `predict` method returns an array containing two decimal values: the predict
 - Emma requires a training data set containing hundreds (if not thousands) of email campaigns before it's able to make reasonably-accurate predictions.
 - Emma doesn't account for other aspects of an email campaign that affect its performance, including subject line and message copy, content length, number of images in the message, or number of previous sends in the campaign.
 - Emma doesn't account for audience demographic information (ex. prospective students, alumni, faculty and staff).
+- Emma might be more accurate using a different machine learning algorithm, or different data pre-processing steps such as applying one-hot encoding to the `hour_of_day` and `day_of_week` features.
